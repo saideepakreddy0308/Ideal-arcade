@@ -1,15 +1,14 @@
-import firebase from 'firebase/app';
+import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBw0_1lp5NVEGnIOaNSxEbEFGiEb1Umldk",
-  authDomain: "ideal-arcade-firebase.firebaseapp.com",
-  databaseURL: "https://ideal-arcade-firebase-default-rtdb.firebaseio.com",
-  projectId: "ideal-arcade-firebase",
-  storageBucket: "ideal-arcade-firebase.appspot.com",
-  messagingSenderId: "590000438613",
-  appId: "1:590000438613:web:df2b4c02bb9aa2936443dc"
+  apiKey: "AIzaSyDKN9nRn3LXToUJwBQjJkFG93F5Za-a4dk",
+  authDomain: "ideal-arcade-0308s.firebaseapp.com",
+  projectId: "ideal-arcade-0308s",
+  storageBucket: "ideal-arcade-0308s.appspot.com",
+  messagingSenderId: "759239728358",
+  appId: "1:759239728358:web:c758bf975686a30b2eaf27"
 };
 
 // Initialize Firebase
@@ -20,3 +19,4 @@ const projectFirestore = firebase.firestore();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, timestamp };
+
