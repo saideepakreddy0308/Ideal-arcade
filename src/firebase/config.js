@@ -3,13 +3,13 @@ import 'firebase/storage';
 import 'firebase/firestore';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyD5RC0eWtvnxjW-r4FDxyn2_k3M6waimgk",
-  authDomain: "ideal-arcade.firebaseapp.com",
-  databaseURL: "https://ideal-arcade.firebaseio.com",
-  projectId: "ideal-arcade",
-  storageBucket: "ideal-arcade.appspot.com",
-  messagingSenderId: "912025325172",
-  appId: "1:912025325172:web:c8d7f8a5143eae76c88b21",
+  apiKey: "AIzaSyBw0_1lp5NVEGnIOaNSxEbEFGiEb1Umldk",
+  authDomain: "ideal-arcade-firebase.firebaseapp.com",
+  databaseURL: "https://ideal-arcade-firebase-default-rtdb.firebaseio.com",
+  projectId: "ideal-arcade-firebase",
+  storageBucket: "ideal-arcade-firebase.appspot.com",
+  messagingSenderId: "590000438613",
+  appId: "1:590000438613:web:df2b4c02bb9aa2936443dc"
 };
 
 // Initialize Firebase
